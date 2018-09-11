@@ -1,2 +1,2 @@
 # html5
-Basic HTML forms for teaching HTML.
+HTML essentials for teaching.

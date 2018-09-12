@@ -1,0 +1,30 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-color: #ede6e6;
+    margin: 0 auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #373535;
+}
+
+header {
+    height: 150px;
+    padding-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}

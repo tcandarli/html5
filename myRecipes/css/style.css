@@ -66,11 +66,11 @@ header li:first-child {
     margin: 0;
 }
 
-
 /* CONTENT */
 
 #main {
     background-image: url("./../img/dishes.jpg");
+    height: 438px;
 }
 
 form {
@@ -109,4 +109,24 @@ form {
 
 .middle p {
     color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer li {
+    border-right: 1px solid #373535;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer {
+    background-image: #e5e0e0;
+    padding-top: 20px;
 }

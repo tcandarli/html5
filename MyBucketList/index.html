@@ -13,7 +13,11 @@
         <div class="logo">
           <a href="/">My Bucket List</a>
         </div>
-        <form class="search">
+        <form class="search" action="ideas" method="get">
+          <label for="global-search-input">Search</label>
+          <input id="global-search-input" type="text" name="search"
+          placeholder="e.g. Swimming with doplhins" />
+          <button type="submit" name="button">Search</button>
         </form>
         <nav>
           <ul>
@@ -25,6 +29,12 @@
       </div>
       <div class="masthead">
         <h1>Get inspired. Create your bucket list. Share.</h1>
+        <form class="search" action="ideas" method="get">
+          <label for="cta-search-input">Inspire me</label>
+          <input id="cta-search-input" type="text" name="search"
+          placeholder="e.g. Driving a race car." />
+          <button type="submit" name="button">Search</button>
+        </form>
       </div>
     </div>
   </header>
@@ -35,42 +45,45 @@
       <ul>
         <li>
           <a href="ideas/see-the-northern-lights.html">
-            <img src="images/northern-lights-small.jpg" alt="Northern lights above a house at night" />
+            <img src="images/northern-lights-small.jpg"
+            alt="Northern lights above a house at night" />
             <div>
               <h3>See the northern lights.</h3>
               <span>1254 people are doing this</span>
             </div>
           </a>
-          <div>
-            <button>Like</button>
-            <button>Add goal</button>
-          </div>
+          <form action="idea" method="post">
+            <button type="submit" name="action" value="like">Like</button>
+            <button type="submit" name="action" value="addGoal">Add goal</button>
+          </form>
         </li>
         <li>
           <a href="ideas/swim-with-dolphins.html">
-            <img src="images/dolphins-small.jpg" alt="Swimming with dolphins" />
+            <img src="images/dolphins-small.jpg"
+            alt="Swimming with dolphins" />
             <div>
               <h3>Swim with dolphins.</h3>
               <span>1254 people are doing this</span>
             </div>
           </a>
-          <div>
-            <button>Like</button>
-            <button>Add goal</button>
-          </div>
+          <form action="idea" method="post">
+            <button type="submit" name="action" value="like">Like</button>
+            <button type="submit" name="action" value="addGoal">Add goal</button>
+          </form>
         </li>
         <li>
           <a href="dancing.html">
-            <img src="images/dancing-small.jpg" alt="Dancing like nobody's watching" />
+            <img src="images/dancing-small.jpg"
+            alt="Dancing like nobody's watching" />
             <div>
               <h3>Dance like nobody's watching.</h3>
               <span>1254 people are doing this</span>
             </div>
           </a>
-          <div>
-            <button>Like</button>
-            <button>Add goal</button>
-          </div>
+          <form action="idea" method="post">
+            <button type="submit" name="action" value="like">Like</button>
+            <button type="submit" name="action" value="addGoal">Add goal</button>
+          </form>
         </li>
       </ul>
     </div>

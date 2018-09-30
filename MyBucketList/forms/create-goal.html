@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Create Goal form template</title>
+</head>
+
+<body>
+
+  <form class="form--inpage" action="create-goal" method="post">
+    <div class="alert alert--wide">
+      Please fill out a title.<br />
+      Please add an image.
+    </div>
+
+    <div class="input-group input-group--horisantal">
+      <label class="input-group__label" for="goal-title">Title</label>
+      <input id="goal-title" class="input-group__field" type="text" name="goal-title" placeholder="E.g. ride a camel" />
+    </div>
+
+    <div class="input-group input-group--horisantal">
+      <label class="input-group__label" for="goal-image">Image</label>
+      <input id="goal-image" class="input-group__field" type="file" name="goal-image" />
+    </div>
+
+    <div class="input-group input-group--horisantal">
+      <label class="input-group__label" for="goal-tags">Add tags</label>
+      <input id="goal-tags" class="input-group__field" type="text" name="goal-tags" placeholder="Separate multiple tags with commas" />
+    </div>
+
+    <div class="input-group input-group--horisantal">
+        <label class="input-group__label" for="goal-description">Description</label>
+        <textarea id="goal-description" class="input-group__field"></textarea>
+    </div>
+
+    <div class="pro0mpt">
+      <a class="prompt__class" href="cancel.html">Cancel</a>
+      <button class="btn btn--primary prompt__confirm" type="submit">Create Goal</button>
+
+
+    </div>
+
+  </form>
+
+</body>
+
+</html>

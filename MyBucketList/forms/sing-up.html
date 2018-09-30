@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up form template</title>
+</head>
+
+<body>
+
+    <section class="envelope">
+        <header class="text--center"></header>
+        <h1 class="gamma">Sign up</h1>
+        <p>Already a member? <a href="sign-in.html">Log in</a></p>
+    </section>
+
+    <main>
+        <form action="sign-up" method="post">
+            <div class="alert">
+                List validation messages here
+            </div>
+            <div class="input-group">
+                <label for="full-name" class="input-group__label">Full name</label>
+                <input type="text" id="full-name" class="input-group__field" name="full-name" placeholder="e.g. Diana Prince">
+            </div>
+            <div class="input-group">
+                <label for="email" class="input-group__label">Email address</label>
+                <input type="email" id="email" class="input-group__field" name="email" placeholder="e.g. dianaprince@wonder.wmn" />
+            </div>
+            <div class="input-group">
+                <label for="password" class="input-group__label">Choose a password</label>
+                <input type="password" id="password" class="input-group__field" name="password" />
+            </div>
+            <div class="input-group">
+                <label for="password" class="input-group__label">Retype password</label>
+                <input type="password" id="password" class="input-group__field" name="repeat-password" />
+            </div>
+            <div>
+                <input id="tos" type="checkbox" />
+                <label for="tos">By signing up I agree to My Bucket List's <a href="tos.html">Terms of service</a>
+                </label>
+            </div>
+            <div class="prompt">
+                <button class="btn btn--primary prompt__confirm" type="submit">Sign Up</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

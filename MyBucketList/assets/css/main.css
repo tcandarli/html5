@@ -3,15 +3,47 @@
  ------------------------------ */
 
 html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
     background-image: #fff;
 
 }
 
 body {
+    font-size: 15px;
     color: #72797e;
     margin: 0;
     padding: 0;
     
+
+}
+
+/* =============================================
+TYPOGRAFY
+================================================ */
+
+h1 {
+    font-size: 4.8em;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
 
 }
 
@@ -23,6 +55,12 @@ body {
     margin: 0 auto;
     padding: 0 1em;
 
+
+}
+
+.bare-list {
+    list-style-type: none;
+    padding: 0;
 
 }
 
@@ -64,4 +102,18 @@ body {
 .global-footer a {
     color: inherit;
   
+}
+
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+    margin: 0 2rem 2rem 0;
+    border-radius: 3px;
+}
+
+.card__intro {
+    padding: 2em;   
+}
+
+.card__title {
+    font-size: 2em;
 }

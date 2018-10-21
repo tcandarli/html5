@@ -82,14 +82,17 @@ button {
     max-width: 64em;
     margin: 0 auto;
     padding: 0 1em;
+}
 
-
+.content-wrapper::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .bare-list {
     list-style-type: none;
     padding: 0;
-
 }
 
 /* Header */
@@ -123,8 +126,44 @@ button {
     text-align: center;
 }
 
+/* ------------------------------
+* Header
+* ------------------------------ */
 
-/* Footer */
+.global-header .logo {
+    float: left;
+}
+
+.global-header .search {
+    float: left;
+    margin-left: 1.6em;
+}
+
+.global-nav {
+    float: right;
+}
+
+/* ------------------------------
+* Navigation
+* ------------------------------ */ 
+
+.global-nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 1.6em;
+}
+
+
+
+/* -------------------------------
+* Drop-down
+* ------------------------------- */
+
+
+
+/* -------------------------------
+* Footer 
+* ------------------------------- */
 .global-footer {
     background-color: #192127;
     color: #bbc1c6;

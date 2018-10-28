@@ -273,3 +273,7 @@ button {
 .card__title {
     font-size: 1.6em;
 }
+
+.card__thumb img {
+    width: 100%;
+}

@@ -20,6 +20,14 @@ body {
 TYPOGRAFY
 =============================================== */
 
+p, ul, ol, span, label {
+    font-size: 1.5em;
+}
+
+/* -------------------------------------------
+* Headers
+* -------------------------------------------- */
+
 h1,
 h2,
 h3,
@@ -102,7 +110,7 @@ button {
  ------------------------------ */
 
 .content-wrapper {
-    max-width: 64em;
+    max-width: 96em;
     margin: 0 auto;
     padding: 0 1em;
 }
@@ -147,6 +155,18 @@ button {
 .masthead h1 {
     color: #fff;
     text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .masthead h1 {
+        text-align: center;
+    }
+
+    .masthead__search {
+        margin: 0 auto;
+        width: 50%;
+
+    }
 }
 
 /* ------------------------------
@@ -300,6 +320,10 @@ button {
 /* Tablets */
 
 @media screen and (min-width: 480px) {
+    .cards {
+        margin-right: -1.6rem;
+    }
+
     .cards .card {
         float: left;
         width: calc(50% - 1.6rem);
@@ -309,6 +333,9 @@ button {
 
 
 @media screen and (min-width: 800px) {
+    .cards .card {
+        width: calc(25% - 1.6rem);
+    }
     
 }
 /* Desktop */

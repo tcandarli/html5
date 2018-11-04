@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>My Bucket List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
@@ -42,7 +43,21 @@
   <main>
     <div class="content-wrapper">
       <h2>Some ideas</h2>
-      <ul class="bare-list">
+      <ul class="bare-list cards">
+        <li class="card">
+          <a class="card__thumb" href="ideas/see-the-northern-lights.html">
+            <img src="./assets/images/northern-lights-small.jpg" alt="Northern lights above a house at night" srcset="./assets/images/northern-lights-small.jpg 300w, 
+                    ./assets/images/northern-lights-large.jpg 600w" />
+            <div class="card__intro">
+              <h3 class="card__title">See the northern lights.</h3>
+              <span>1254 people are doing this</span>
+            </div>
+          </a>
+          <form class="card__footer" action="idea" method="post">
+            <button type="submit" name="action" value="like">Like</button>
+            <button type="submit" name="action" value="addGoal">Add goal</button>
+          </form>
+        </li>
         <li class="card">
           <a class="card__thumb" href="ideas/see-the-northern-lights.html">
             <img src="./assets/images/northern-lights-small.jpg" alt="Northern lights above a house at night" srcset="./assets/images/northern-lights-small.jpg 300w, 

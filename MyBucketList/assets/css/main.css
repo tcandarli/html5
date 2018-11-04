@@ -49,16 +49,13 @@ h1,
     .alpha {
         font-size: 4em
     }
-
-
+}
 
 @media screen and (min-width: 800px) {
     h1,
     .alpha {
         font-size: 4.8em
     }
-
-
 }
 
 h2,
@@ -293,3 +290,25 @@ button {
 .card__thumb img {
     width: 100%;
 }
+
+.cards::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Tablets */
+
+@media screen and (min-width: 480px) {
+    .cards .card {
+        float: left;
+        width: calc(50% - 1.6rem);
+    }
+}
+
+
+
+@media screen and (min-width: 800px) {
+    
+}
+/* Desktop */
